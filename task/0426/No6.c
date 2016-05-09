@@ -3,7 +3,7 @@
 
   int a[3],b;
   int i,j,x,min;
-
+printf("please input 3 numbers\n");
      for(i=0 ;i<3; i++)
  scanf("%d",&a[i]);
 
