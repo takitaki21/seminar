@@ -1,21 +1,18 @@
 #include <stdio.h>
-int main ()
+
+int main(void)
 {
-	int a;
-	int ia,ib,ic;
+	char *s="10";	
+	int c;
+
+	c=atoi(s);	
+	int a , n;
 	float b ;
-	char c ;
-	a=7;
-	ia=a;
-	printf("%d\n",ia);
+a=7;
+b=3.0;
 
-	b=3.0; 
-	ib=b;
-	printf("%d\n",ib);
-	
-	c=10;
-	ic=c;
-    printf("%d\n",ic);
+n=a+b+c;
+	printf( "%d\n",n);
+	return 0;
 
-	printf("int 7 + float 3.0 + char 10 =%d\n",ia+ib+ic );
 }
