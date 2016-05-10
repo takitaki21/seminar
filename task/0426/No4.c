@@ -2,10 +2,10 @@
 
 int main(void)
 {
-	char *s="10";	
-	int c;
+	char c;	
+	
 
-	c=atoi(s);	
+	c=atoi("10");	
 	int a , n;
 	float b ;
 a=7;
