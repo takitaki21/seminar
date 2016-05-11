@@ -6,7 +6,7 @@ int main(){
 	printf("1st weight(kg).\n2nd heigh(cm).\n");
 	float num1,num2;
 	scanf ("%f%f",&num1,&num2);
-	num2 = num2 / 100;
+	num2 = num2 / 100.0;
 	printf("BMI = %f\n",num1 / num2 / num2);
 	
 }

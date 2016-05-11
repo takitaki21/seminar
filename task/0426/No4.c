@@ -11,7 +11,7 @@ int main(void)
 a=7;
 b=3.0;
 
-n=a+b+c;
+n=c+a+b;
 	printf( "%d\n",n);
 	return 0;
 
