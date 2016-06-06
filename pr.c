@@ -1,7 +1,8 @@
 #include <stdio.h>
-int stack[1000];
-int p=0,i;
-int a,b,w;
+int stack[100];
+int p,i;
+int a,b,n;
+int ch;
  void push(int i){
 	stack[p++]=i;
 }
@@ -13,9 +14,18 @@ int pop() {
 	return(i);
 }
 
-void main(){ 
-	
-          switch (p) { 
+int main(){ 
+	scanf("%s",ch);
+  //for (int i = 0; i >= 0; 100; i++) {
+  	while((ch=getchar())!=EOF){
+  	if (isdigit(ch)){
+  		ungetch(ch,&i);
+  		push(i);
+  	}
+    if (ch == '0');
+    	break;
+  }
+          switch (ch) { 
 
               case '+':
                   a=pop();
@@ -45,15 +55,11 @@ void main(){
                   push(b/a);
                   break;
 
-              default: 
-
           }
-
-      }
 
       return pop(); 
 
-
 }
+
 
  
